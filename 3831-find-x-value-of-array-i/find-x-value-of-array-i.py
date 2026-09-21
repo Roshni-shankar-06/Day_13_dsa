@@ -13,9 +13,4 @@ class Solution:
             
             # Extend all previous subarrays ending at the prior element
             for i in range(k):
-                if dp[i] > 0:
-                    newMod = (i * numMod) % k
-                    newDp[newMod] += dp[i]
-            
-            # Accumulate the counts of all valid subarrays ending here into our answer
-            
+           
