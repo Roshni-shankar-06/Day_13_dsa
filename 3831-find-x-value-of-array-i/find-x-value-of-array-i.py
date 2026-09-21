@@ -18,9 +18,4 @@ class Solution:
                     newDp[newMod] += dp[i]
             
             # Accumulate the counts of all valid subarrays ending here into our answer
-            for i in range(k):
-                ans[i] += newDp[i]
-                
-            dp = newDp
             
-        return ans
