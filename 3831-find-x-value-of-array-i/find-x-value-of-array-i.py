@@ -1,6 +1,1 @@
-class Solution:
-    def resultArray(self, nums: list[int], k: int) -> list[int]:
-        ans = [0] * k
-        # dp[r] := number of subarrays ending at the current position with product % k == r
-        dp = [0] * k
-    
+
