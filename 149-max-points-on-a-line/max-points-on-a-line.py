@@ -13,9 +13,5 @@ class Solution:
       if dy == 0:
         return (p[1], 0)
       d = gcd(dx, dy)
-      return (dx // d, dy // d)
 
-    for i, p in enumerate(points):
-      slopeCount = collections.defaultdict(int)
-      samePoints = 1
     
