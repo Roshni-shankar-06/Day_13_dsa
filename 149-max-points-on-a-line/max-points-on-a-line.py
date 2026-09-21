@@ -9,9 +9,4 @@ class Solution:
       dx = p[0] - q[0]
       dy = p[1] - q[1]
       if dx == 0:
-        return (0, p[0])
-      if dy == 0:
-        return (p[1], 0)
-      d = gcd(dx, dy)
-
-    
+      
