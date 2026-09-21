@@ -10,9 +10,4 @@ class Solution:
       for i in range(1, len(s)):
         prefix = s[:i]
         suffix = s[i:]
-        if prefix in wordSet:
-          for word in wordBreak(suffix):
-            ans.append(prefix + ' ' + word)
-
-      # `wordSet` contains the whole string s, so don't add any space.
-     
+    
