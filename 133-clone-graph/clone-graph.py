@@ -7,10 +7,5 @@ class Solution:
             return None
         
         if node in self.map:
-            return self.map[node]
-        
-        newNode = Node(node.val, [])
-        self.map[node] = newNode
-        
-      
+     
       
