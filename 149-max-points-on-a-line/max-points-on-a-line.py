@@ -5,8 +5,4 @@ class Solution:
     def gcd(a: int, b: int) -> int:
       return a if b == 0 else gcd(b, a % b)
 
-    def getSlope(p: list[int], q: list[int]) -> tuple[int, int]:
-      dx = p[0] - q[0]
-      dy = p[1] - q[1]
-      if dx == 0:
-      
+  
