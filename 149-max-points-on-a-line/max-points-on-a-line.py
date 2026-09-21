@@ -18,8 +18,4 @@ class Solution:
     for i, p in enumerate(points):
       slopeCount = collections.defaultdict(int)
       samePoints = 1
-      maxPoints = 0  # the maximum number of points with the same slope
-      for j in range(i + 1, len(points)):
-        q = points[j]
-        if p == q:
-   
+    
