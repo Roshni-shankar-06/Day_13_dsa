@@ -15,9 +15,4 @@ class Solution:
             ans.append(prefix + ' ' + word)
 
       # `wordSet` contains the whole string s, so don't add any space.
-      if s in wordSet:
-        ans.append(s)
-
-      return ans
-
-    return wordBreak(s)
+     
