@@ -8,9 +8,4 @@ class Solution:
             newDp = [0] * k
             numMod = num % k
             
-            # Start a new subarray consisting only of the current 'num'
-            newDp[numMod] = 1
-            
-            # Extend all previous subarrays ending at the prior element
-            for i in range(k):
            
