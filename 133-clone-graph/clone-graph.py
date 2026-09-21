@@ -11,8 +11,4 @@ class Solution:
         
         newNode = Node(node.val, [])
         self.map[node] = newNode
-        
-        for neighbor in node.neighbors:
-            newNode.neighbors.append(self.cloneGraph(neighbor))
-            
-        return newNode
+    
