@@ -3,9 +3,4 @@ class Solution:
         ans = [0] * k
         # dp[r] := number of subarrays ending at the current position with product % k == r
         dp = [0] * k
-        
-        for num in nums:
-            newDp = [0] * k
-            numMod = num % k
-            
-           
+    
