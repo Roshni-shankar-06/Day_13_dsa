@@ -22,8 +22,4 @@ class Solution:
       for j in range(i + 1, len(points)):
         q = points[j]
         if p == q:
-          samePoints += 1
-        else:
-          slope = getSlope(p, q)
-          slopeCount[slope] += 1
-       
+   
