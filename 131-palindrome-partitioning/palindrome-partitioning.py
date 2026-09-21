@@ -14,8 +14,4 @@ class Solution:
                 substring = s[start:end]
                 if is_palindrome(substring):
                     path.append(substring)
-                    dfs(end, path)
-                    path.pop()  # Backtrack
-                    
-        dfs(0, [])
-        return ans
+             
