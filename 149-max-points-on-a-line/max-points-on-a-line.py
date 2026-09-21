@@ -26,7 +26,4 @@ class Solution:
         else:
           slope = getSlope(p, q)
           slopeCount[slope] += 1
-          maxPoints = max(maxPoints, slopeCount[slope])
-      ans = max(ans, samePoints + maxPoints)
-
-    return ans
+       
